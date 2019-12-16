@@ -1,0 +1,10 @@
+a)Classe são arquivos que possuem atributos que formam um protótipo de um objeto qualquer. Objetos são instâncias dessa classe,
+  ou seja, são objetos cujos atributos foram definidos. Objetos são, por definição, derivados de uma classe.
+  
+b)Construtores são métodos especiais que inicializam o objeto corretamente na hora de sua criação.
+
+c)O encapsulamento garante que os atributos utilizados numa classe não se sobreponham a outros em uma classe diferente. Garante 
+  que informações possam ser modificadas somente através dos métodos. Um exemplo é o cadastro de alguém em algum lugar. Poder mudar
+  diretamente as informarções do cadastrado permite várias falhas de segurança que tornam o sistema falho. Ao fazer o encapsulamen-
+  to, essas informações são acessíveis por meio de métodos apenas que podem ter parâmetros e ações que limitam o poder de modifica-
+  ção dessas informações, assim, hámenos falhas de segurança e o sistema se torna mais seguro.
