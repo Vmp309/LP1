@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 #include "IConta.h"
 class Conta : public IConta
 {
