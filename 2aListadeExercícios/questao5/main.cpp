@@ -39,22 +39,23 @@ int main()
         i++;
     }
 
+arquivo.close();
 
     int Numero_nomes_gravados = i + 1;
     int contador = 0;
 
 
    ///Gravando em copia.txt
-   fstream copia("copia.txt", ios::out);
-    if (!copia.is_open()){
+   fstream copiar("copia.txt", ios::out);
+    if (!copiar.is_open()){
         cout << "copia.txt could not be opened!" << endl;
     }else{
         while (contador < Numero_nomes_gravados){
-            copia << nomes[contador] << "\n";
+            copiar << nomes[contador] << "\n";
             contador++;
         }
     }
-
+    copiar.close();
 
     return 0;
 }
